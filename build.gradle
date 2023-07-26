@@ -336,8 +336,8 @@ dependencies {
     implementation group: 'com.launchdarkly', name: 'launchdarkly-java-server-sdk', version: '6.1.0'
 
     implementation group: 'com.google.guava', name: 'guava', version: '31.1-jre'
-    annotationProcessor 'org.projectlombok:lombok:1.18.12'
-    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    compileOnly 'org.projectlombok:lombok:1.18.28'
 
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.6.28'
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test'
